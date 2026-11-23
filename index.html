@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gustavo Ferreira — Desenvolvedor de Software</title>
+  <meta name="description" content="Portfólio e currículo de Gustavo Ferreira, desenvolvedor de software .NET, Python e Azure, com IA aplicada à automação e operação de sistemas.">
+  <meta property="og:title" content="Gustavo Ferreira — Desenvolvedor de Software">
+  <meta property="og:description" content="Portfólio e currículo: .NET, Python, Azure e IA aplicada à automação.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0d1117">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d1117'/%3E%3Ctext x='32' y='43' font-family='monospace' font-size='30' font-weight='700' text-anchor='middle' fill='%2338bdf8'%3EGF%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav__in">
+    <a class="brand" href="#topo" aria-label="Gustavo Ferreira">gf<span>.dev</span></a>
+    <nav class="nav__links" aria-label="Seções">
+      <a href="#sobre" data-en="About">Sobre</a>
+      <a href="#projetos" data-en="Projects">Projetos</a>
+      <a href="#sites" data-en="Sites">Sites</a>
+      <a href="#experiencia" data-en="Experience">Experiência</a>
+      <a href="#skills">Skills</a>
+      <a href="#contato" data-en="Contact">Contato</a>
+    </nav>
+    <button class="lang" id="langBtn" type="button" aria-label="Mudar idioma / Change language">EN</button>
+  </div>
+</header>
+
+<main id="topo">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero__in">
+      <p class="eyebrow mono" data-en="Hello, I'm">Olá, eu sou</p>
+      <h1>Gustavo Antonio Ferreira</h1>
+      <p class="hero__role" data-en="Software developer — .NET, Python and Azure — applying AI (Claude) to automation and systems operations.">
+        Desenvolvedor de software — .NET, Python e Azure — aplicando IA (Claude) em automação e operação de sistemas.
+      </p>
+      <p class="hero__meta mono">
+        <span id="years">+9</span> <span data-en="years of experience">anos de experiência</span>
+        <i>·</i> Santo André, SP
+        <i class="age-sep" hidden>·</i><span id="age" hidden></span>
+      </p>
+      <div class="cta">
+        <a class="btn btn--primary" href="#projetos" data-en="See projects">Ver projetos</a>
+        <a class="btn" id="cvBtn" href="assets/cv/Curriculo_Gustavo_Ferreira.pdf" download data-en="Download résumé (PDF)">Baixar currículo (PDF)</a>
+        <a class="btn btn--ghost" href="#contato" data-en="Get in touch">Falar comigo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="sec">
+    <div class="wrap">
+      <h2><span class="mono">01</span> <span data-en="About">Sobre</span></h2>
+      <div class="about">
+        <p data-en-html="Software developer specialised in <strong>C#/.NET</strong> and <strong>Python</strong>, with a strong background in automation, cloud infrastructure and keeping critical systems running in production. I build and maintain complex system ecosystems — from architecture to deploy — with Azure, Docker, CI/CD and relational databases in demanding operational environments.">
+          Desenvolvedor de software especializado em <strong>C#/.NET</strong> e <strong>Python</strong>, com forte atuação em automação, infraestrutura cloud e sustentação de sistemas críticos em produção. Construo e mantenho ecossistemas complexos de sistemas — da arquitetura ao deploy — com Azure, Docker, CI/CD e bancos relacionais em ambientes de alta exigência operacional.
+        </p>
+        <p data-en-html="One of my main differentiators today is the <strong>practical use of AI in development</strong>: I use it to speed up automation, build specialised agents and streamline engineering processes, delivering faster and with higher quality.">
+          Um dos meus principais diferenciais hoje é a <strong>aplicação prática de IA no desenvolvimento</strong>: uso para acelerar automações, criar agentes especializados e otimizar processos de engenharia, entregando mais rápido e com mais qualidade.
+        </p>
+        <p data-en-html="Outside my day job I run my own products and a 3D printing business — from SaaS and ERPs to IoT hardware (ESP32 + MQTT) — which is what most of the projects below come from.">
+          Fora do trabalho, toco produtos próprios e um negócio de impressão 3D — de SaaS e ERPs a hardware IoT (ESP32 + MQTT) — e é daí que vem a maior parte dos projetos abaixo.
+        </p>
+      </div>
+      <ul class="stats">
+        <li><b>10+</b><span data-en="critical internal systems maintained">sistemas internos críticos mantidos</span></li>
+        <li><b>40+</b><span data-en="repositories managed">repositórios gerenciados</span></li>
+        <li><b>~80</b><span data-en="CI/CD pipelines">pipelines de CI/CD</span></li>
+        <li><b>8</b><span data-en="projects in this portfolio">projetos neste portfólio</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projetos" class="sec">
+    <div class="wrap">
+      <h2><span class="mono">02</span> <span data-en="Projects">Projetos</span></h2>
+      <p class="lead" data-en="Products and systems, most hosted on Railway — some in production, others in pilot or development. Screenshots are edited to mask confidential data.">Produtos e sistemas, a maioria hospedada no Railway — alguns em produção, outros em piloto ou desenvolvimento. Os prints são editados para mascarar informações confidenciais.</p>
+
+      <div class="grid">
+
+        <article class="card" data-project="se">
+          <div class="shot" data-initials="SE"><span class="shot__bar"><i></i><i></i><i></i></span><em data-en="screenshot coming soon">print em breve</em></div>
+          <div class="card__body">
+            <span class="badge" data-en="In production">Produção</span>
+            <h3>Sinucão ERP</h3>
+            <p data-en="ERP for amusement-rental companies: digitises the collector&#x27;s route (meter reading, company/venue split, collection, cash closing), replacing a legacy system and paper slips. Offline-first PWA, append-only ledger, PDF and thermal receipts.">ERP para empresas de locação de diversões públicas: informatiza a rota do cobrador (leitura do contador, divisão empresa/bar, cobrança, fechamento de caixa) e substitui um sistema legado e a ficha de papel. PWA offline-first, conta-corrente append-only, recibos em PDF e térmica.</p>
+            <ul class="tags"><li>.NET</li><li>Angular</li><li>PostgreSQL</li><li>Multi-tenant</li><li>PWA</li><li>Railway</li></ul>
+          </div>
+        </article>
+
+        <article class="card" data-project="pm">
+          <div class="shot" data-initials="PM"><span class="shot__bar"><i></i><i></i><i></i></span><em data-en="screenshot coming soon">print em breve</em></div>
+          <div class="card__body">
+            <span class="badge" data-en="In development">Em desenvolvimento</span>
+            <h3>PokeMarket</h3>
+            <p data-en="Pokémon TCG marketplace with curated stores, PSP-escrowed payments, real-time auctions and raffles drawn from the Federal Lottery. Modular monolith with tamper-evident audit log (hash chain), MFA and a payment-provider abstraction.">Marketplace de Pokémon TCG com lojas curadas, pagamento custodiado no PSP, leilões em tempo real e sorteios apurados pela Loteria Federal. Monólito modular com auditoria imutável (cadeia de hash), MFA e pagamento atrás de abstração de provedor.</p>
+            <ul class="tags"><li>.NET 10</li><li>Angular 21</li><li>PostgreSQL</li><li>SSE</li><li>Docker</li><li>Railway</li></ul>
+          </div>
+        </article>
+
+        <article class="card" data-project="ma">
+          <div class="shot" data-initials="MA"><span class="shot__bar"><i></i><i></i><i></i></span><em data-en="screenshot coming soon">print em breve</em></div>
+          <div class="card__body">
+            <span class="badge" data-en="Pilot">Piloto</span>
+            <h3>Smart Ficha — Mesa Automatizada</h3>
+            <p data-en="Multi-company platform that unlocks a pool table by Pix payment: QR code → table page → .NET API → MQTT → ESP32-C3 → servo. Includes firmware, a parametric CAD enclosure, mandatory 2FA for operators and an append-only audit trail.">Plataforma multiempresa que libera mesa de sinuca por Pix: QR code → página da mesa → API .NET → MQTT → ESP32-C3 → servo. Inclui firmware, caixa paramétrica projetada em CAD, 2FA obrigatório para operadores e auditoria append-only.</p>
+            <ul class="tags"><li>.NET 10</li><li>MQTT / EMQX</li><li>ESP32-C3</li><li>OpenSCAD</li><li>PostgreSQL</li><li>Railway</li></ul>
+            <a class="card__link" href="https://www.smartficha.com" target="_blank" rel="noopener">smartficha.com ↗</a>
+          </div>
+        </article>
+
+        <article class="card" data-project="p3">
+          <div class="shot" data-initials="P3"><span class="shot__bar"><i></i><i></i><i></i></span><em data-en="screenshot coming soon">print em breve</em></div>
+          <div class="card__body">
+            <span class="badge" data-en="In production">Produção</span>
+            <h3>Pitstop 3D — <span data-en="Internal control">Controle interno</span></h3>
+            <p data-en="Internal management for a 3D-printing business: orders, stock, pricing calculator, PDF quotes and real-time print-farm monitoring (Bambu and FlashForge) via a local agent + SignalR. Generates listings with AI (Claude and Gemini).">Gestão interna de um negócio de impressão 3D: pedidos, estoque, calculadora de preço, orçamentos em PDF e monitoramento em tempo real da farm de impressoras (Bambu e FlashForge) por agente local + SignalR. Gera anúncios com IA (Claude e Gemini).</p>
+            <ul class="tags"><li>.NET 10</li><li>Angular</li><li>SignalR</li><li>Hangfire</li><li>IA</li><li>Railway</li></ul>
+          </div>
+        </article>
+
+        <article class="card" data-project="al">
+          <div class="shot" data-initials="AL"><span class="shot__bar"><i></i><i></i><i></i></span><em data-en="screenshot coming soon">print em breve</em></div>
+          <div class="card__body">
+            <span class="badge" data-en="Rolling out">Em implantação</span>
+            <h3>ALDABC</h3>
+            <p data-en="System for the ABC public-amusements association to look up venues, manage reservations and bill the annual fee. Replaces a 2004 Delphi app; legacy Firebird data migrated by reverse engineering, with PDF receipts and automated e-mail.">Sistema da Associação de Diversões Públicas do ABC para consultar pontos, controlar reservas e cobrar a taxa anual. Substitui um app Delphi de 2004; migrou a base legada (Firebird) por engenharia reversa, com recibos em PDF e e-mail automático.</p>
+            <ul class="tags"><li>.NET</li><li>Angular</li><li>PostgreSQL</li><li>QuestPDF</li><li>Docker</li><li>Railway</li></ul>
+          </div>
+        </article>
+
+        <article class="card" data-project="pt">
+          <div class="shot" data-initials="PT"><span class="shot__bar"><i></i><i></i><i></i></span><img src="assets/projects/pet-tag.png" alt="Página inicial do Pitstop Pet Tag" loading="lazy"></div>
+          <div class="card__body">
+            <span class="badge" data-en="In production">Produção</span>
+            <h3>Pitstop Pet Tag</h3>
+            <p data-en="NFC pet-tag PWA: whoever finds the pet taps their phone to see its page; the owner activates the tag and edits everything later. Multi-company, with security as a first-class requirement (ASVS 2, Argon2id, strict CSP, audit trail).">PWA de pingentes NFC para pets: quem encontra o animal aproxima o celular e vê a página do pet; o tutor ativa a tag e edita tudo depois. Multiempresa, com segurança como requisito de primeira classe (ASVS 2, Argon2id, CSP estrita, auditoria).</p>
+            <ul class="tags"><li>ASP.NET Core 10</li><li>Razor Pages</li><li>PostgreSQL</li><li>Web NFC</li><li>Docker</li><li>Railway</li></ul>
+          </div>
+        </article>
+
+        <article class="card" data-project="cc">
+          <div class="shot" data-initials="CC"><span class="shot__bar"><i></i><i></i><i></i></span><em data-en="screenshot coming soon">print em breve</em></div>
+          <div class="card__body">
+            <span class="badge" data-en="Personal use">Uso pessoal</span>
+            <h3>ControleContas</h3>
+            <p data-en="Monthly finance tracker that grew out of a spreadsheet: personal and business contexts, instalments, partial payments and Excel import with preview. Clean Architecture backend and a signals-based Angular front end.">Controle financeiro mensal nascido de uma planilha: contextos pessoal e empresa, parcelamentos, pagamento parcial e importação de Excel com prévia. Clean Architecture no backend e Angular com signals no front.</p>
+            <ul class="tags"><li>.NET 10</li><li>Angular 20</li><li>PostgreSQL</li><li>EPPlus</li></ul>
+          </div>
+        </article>
+
+        <article class="card" data-project="md">
+          <div class="shot" data-initials="MD"><span class="shot__bar"><i></i><i></i><i></i></span><em data-en="government project">projeto de governo</em></div>
+          <div class="card__body">
+            <span class="badge badge--off" data-en="Closed">Encerrado</span>
+            <h3>Mercado Digital</h3>
+            <p data-en="Government platform connecting micro-producers and purchasing cooperatives, developed on consulting engagements from 2021 to 2024. The project was closed by the client.">Plataforma de governo que conecta microprodutores a cooperativas de compra, desenvolvida em consultoria entre 2021 e 2024. Projeto encerrado pelo contratante.</p>
+            <ul class="tags"><li>.NET</li><li>React</li><li>SQL</li><li>Keycloak</li><li>jQuery</li></ul>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SITES -->
+  <section id="sites" class="sec">
+    <div class="wrap">
+      <h2><span class="mono">03</span> <span data-en="Sites &amp; stores">Sites e lojas</span></h2>
+      <p class="lead" data-en="Websites and online stores I designed and built, all live.">Sites institucionais e lojas virtuais que desenhei e construí, todos no ar.</p>
+
+      <div class="grid">
+
+        <article class="card">
+          <a class="shot" href="https://www.pecegames.com.br" target="_blank" rel="noopener" data-initials="PG" aria-label="Pece Games"><span class="shot__bar"><i></i><i></i><i></i></span><img src="assets/projects/site-pecegames.png" alt="Página inicial da loja Pece Games" loading="lazy"></a>
+          <div class="card__body">
+            <h3>Pece Games</h3>
+            <p data-en="Online store on Loja Integrada for consoles, games and accessories, including used items with warranty. Visual identity, banners and catalogue structure built from scratch, with Pix, instalments and nationwide shipping.">Loja virtual na Loja Integrada, de consoles, jogos e acessórios, com seminovos com garantia. Identidade visual, banners e estrutura de catálogo criados do zero, com Pix, parcelamento e frete para todo o Brasil.</p>
+            <ul class="tags"><li>Loja Integrada</li><li>E-commerce</li><li>Identidade visual</li><li>Pix</li></ul>
+            <a class="card__link" href="https://www.pecegames.com.br" target="_blank" rel="noopener">pecegames.com.br ↗</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <a class="shot" href="https://yourreefstore.com.br" target="_blank" rel="noopener" data-initials="YR" aria-label="Your Reef Store"><span class="shot__bar"><i></i><i></i><i></i></span><img src="assets/projects/site-yourreef.png" alt="Página inicial da loja Your Reef Store" loading="lazy"></a>
+          <div class="card__body">
+            <h3>Your Reef Store</h3>
+            <p data-en="Store for corals, fish and equipment for marine aquariums, built from scratch on Nuvemshop: layout, banners, categories, shipping by ZIP code, coupons and WhatsApp support.">Loja de corais, peixes e equipamentos para aquários marinhos, criada do zero na Nuvemshop: layout, banners, categorias, frete por CEP, cupons e atendimento por WhatsApp.</p>
+            <ul class="tags"><li>Nuvemshop</li><li>E-commerce</li><li>Layout</li><li>WhatsApp</li></ul>
+            <a class="card__link" href="https://yourreefstore.com.br" target="_blank" rel="noopener">yourreefstore.com.br ↗</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <a class="shot" href="https://www.smartficha.com" target="_blank" rel="noopener" data-initials="SM" aria-label="Smart Ficha"><span class="shot__bar"><i></i><i></i><i></i></span><img src="assets/projects/site-smartficha.png" alt="Página inicial do site Smart Ficha" loading="lazy"></a>
+          <div class="card__body">
+            <h3>Smart Ficha</h3>
+            <p data-en="Marketing site for Smart Ficha, Pix payment at the pool table: explains the QR → Pix → button flow, the benefits for bar owners, what to do when something goes wrong, and security. Light and dark themes.">Site institucional do Smart Ficha, o Pix na mesa de sinuca: explica o fluxo QR → Pix → botão, os benefícios para o dono do bar, o que fazer se algo der errado e a segurança. Com tema claro e escuro.</p>
+            <ul class="tags"><li>Site institucional</li><li>Design do zero</li><li>Tema claro/escuro</li></ul>
+            <a class="card__link" href="https://www.smartficha.com" target="_blank" rel="noopener">smartficha.com ↗</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <a class="shot" href="https://www.sinucaoerp.com.br" target="_blank" rel="noopener" data-initials="SE" aria-label="Sinucão ERP"><span class="shot__bar"><i></i><i></i><i></i></span><img src="assets/projects/site-sinucaoerp.png" alt="Página inicial do site do Sinucão ERP" loading="lazy"></a>
+          <div class="card__body">
+            <h3>Sinucão ERP — <span data-en="Product site">Site do produto</span></h3>
+            <p data-en="Product page for Sinucão ERP, with real screens of the system (demo data), the collection workflow, modules, thermal receipt and an e-mail waiting list.">Página de apresentação do Sinucão ERP, com telas reais do sistema (dados de demonstração), a jornada da cobrança, módulos, recibo em bobina e lista de espera por e-mail.</p>
+            <ul class="tags"><li>Landing page</li><li>Lista de espera</li><li>Design do zero</li></ul>
+            <a class="card__link" href="https://www.sinucaoerp.com.br" target="_blank" rel="noopener">sinucaoerp.com.br ↗</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <a class="shot" href="https://www.bilharessinucao.com.br" target="_blank" rel="noopener" data-initials="BS" aria-label="Sinucão"><span class="shot__bar"><i></i><i></i><i></i></span><img src="assets/projects/site-bilhares.png" alt="Página inicial do site da Sinucão, locação de mesas" loading="lazy"></a>
+          <div class="card__body">
+            <h3>Sinucão — <span data-en="Pool and foosball rental">Locação de bilhar e pebolim</span></h3>
+            <p data-en="Corporate site for a pool-table and foosball rental company: how it works in four steps, benefits for bar owners, photos of the tables, FAQ and direct WhatsApp contact.">Site institucional da empresa de locação de mesas de sinuca e pebolim: como funciona em quatro passos, benefícios para o dono do bar, fotos das mesas, FAQ e contato direto por WhatsApp.</p>
+            <ul class="tags"><li>Site institucional</li><li>Design do zero</li><li>WhatsApp</li><li>SEO local</li></ul>
+            <a class="card__link" href="https://www.bilharessinucao.com.br" target="_blank" rel="noopener">bilharessinucao.com.br ↗</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIÊNCIA -->
+  <section id="experiencia" class="sec">
+    <div class="wrap">
+      <h2><span class="mono">04</span> <span data-en="Experience">Experiência</span></h2>
+
+      <ol class="timeline">
+        <li>
+          <div class="tl__head">
+            <h3 data-en="Full Stack Developer">Desenvolvedor Full Stack</h3>
+            <span class="mono tl__date" data-en="Jan 2021 – Present">Jan 2021 – Atual</span>
+          </div>
+          <p class="tl__org">Nova Vida TI · <span data-en="Contractor, remote">Prestação de serviços, remoto</span></p>
+          <ul>
+            <li data-en="Development and upkeep of an ecosystem of 10+ critical internal systems, in an agile methodology.">Desenvolvimento e sustentação de um ecossistema com mais de 10 sistemas internos críticos, em metodologia ágil.</li>
+            <li data-en=".NET (C#) systems from 2.2 up to .NET 9, with REST APIs, ASP.NET Core MVC and Azure Functions.">Sistemas em .NET (C#), da versão 2.2 até .NET 9, com APIs REST, ASP.NET Core MVC e Azure Functions.</li>
+            <li data-en="Process automation with Python (FastAPI, internal CLIs) and PowerShell.">Automação de processos com Python (FastAPI, CLIs internas) e PowerShell.</li>
+            <li data-en="Cloud architecture and operations on Azure: App Service, Functions, SQL Managed Instance, Service Bus, Key Vault, Cognitive Search, Container Registry.">Arquitetura e operação de infraestrutura em nuvem (Azure): App Service, Functions, SQL Managed Instance, Service Bus, Key Vault, Cognitive Search, Container Registry.</li>
+            <li data-en="Management of 40+ repositories and ~80 CI/CD pipelines in Azure DevOps.">Gestão de mais de 40 repositórios e cerca de 80 pipelines de CI/CD no Azure DevOps.</li>
+            <li data-en="Linux (VPS) administration with Docker, Nginx/Caddy/HAProxy and observability via Grafana Loki and Application Insights.">Administração de servidores Linux (VPS) com Docker, Nginx/Caddy/HAProxy e observabilidade via Grafana Loki e Application Insights.</li>
+            <li data-en="Production security: JWT, OAuth2/Azure AD, Key Vault, mTLS.">Segurança em produção: JWT, OAuth2/Azure AD, Key Vault, mTLS.</li>
+            <li data-en="Leading the adoption of applied AI: specialised Claude agents for DevOps, QA, infrastructure and database tasks.">Liderança na adoção de IA aplicada à operação: agentes especializados (Claude) para tarefas de DevOps, QA, infraestrutura e banco de dados.</li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="tl__head">
+            <h3 data-en="Mid-level Developer Analyst">Analista Desenvolvedor Pleno</h3>
+            <span class="mono tl__date" data-en="Mar 2025 – Jun 2025">Mar 2025 – Jun 2025</span>
+          </div>
+          <p class="tl__org">3CON · <span data-en="Allocated at client Caterpillar">Alocado no cliente Caterpillar</span></p>
+          <ul>
+            <li data-en="Development on critical systems with .NET, DDD, SQL and Dapper.">Desenvolvimento em sistemas críticos com .NET, DDD, SQL e Dapper.</li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="tl__head">
+            <h3 data-en="Mid-level Developer Analyst">Analista Desenvolvedor Pleno</h3>
+            <span class="mono tl__date" data-en="Feb 2022 – Jul 2024">Fev 2022 – Jul 2024</span>
+          </div>
+          <p class="tl__org">MI Montreal Informática · <span data-en="Consulting, government project">Consultoria, projeto de governo</span></p>
+          <ul>
+            <li data-en="Continued the development of Mercado Digital, a government platform connecting micro-producers and purchasing cooperatives, after the consultancy changed through a public tender.">Continuidade do desenvolvimento do Mercado Digital, plataforma de governo que conecta microprodutores a cooperativas de compra, após a troca de consultoria por licitação.</li>
+            <li data-en=".NET, React, SQL, Keycloak and jQuery.">.NET, React, SQL, Keycloak e jQuery.</li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="tl__head">
+            <h3 data-en="Mid-level Developer Analyst">Analista Desenvolvedor Pleno</h3>
+            <span class="mono tl__date" data-en="May 2021 – Feb 2022">Mai 2021 – Fev 2022</span>
+          </div>
+          <p class="tl__org">Best Projects · <span data-en="Consulting, government project">Consultoria, projeto de governo</span></p>
+          <ul>
+            <li data-en="Development of Mercado Digital, a government platform connecting micro-producers and purchasing cooperatives.">Desenvolvimento do Mercado Digital, plataforma de governo que conecta microprodutores a cooperativas de compra.</li>
+            <li data-en=".NET, React, SQL, Keycloak and jQuery.">.NET, React, SQL, Keycloak e jQuery.</li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="tl__head">
+            <h3 data-en="Systems Analyst">Analista de Sistemas</h3>
+            <span class="mono tl__date" data-en="Jan 2020 – Dec 2020">Jan 2020 – Dez 2020</span>
+          </div>
+          <p class="tl__org">Thomas Greg &amp; Sons do Brasil · São Bernardo do Campo, SP</p>
+          <ul>
+            <li data-en="Improvements and support for the control system of variable data printing and Smart Card (credit card) personalisation.">Melhorias e suporte ao sistema de controle de impressão de dados variáveis e gravação de Smart Cards (cartões de crédito).</li>
+            <li data-en="External API integration and file exchange over FTP.">Integração com API externa e troca de arquivos via FTP.</li>
+            <li data-en="Web dashboard showing customers' production status.">Dashboard web com o status de produção dos clientes.</li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="tl__head">
+            <h3 data-en="Systems Analyst">Analista de Sistemas</h3>
+            <span class="mono tl__date" data-en="Nov 2017 – Nov 2019">Nov 2017 – Nov 2019</span>
+          </div>
+          <p class="tl__org">HSI Smart Solutions · Santo André, SP</p>
+          <ul>
+            <li data-en="Development and support of MES systems (TrakSYS framework) for real-time tracking of large-scale production lines.">Desenvolvimento e suporte de sistemas MES (framework TrakSYS) para acompanhamento em tempo real de linhas de produção em grande escala.</li>
+            <li data-en="Technical specification of the solutions delivered.">Especificação técnica das soluções desenvolvidas.</li>
+            <li data-en="Clients included FCA (Fiat Chrysler), Ambev, Akzo Nobel, Beiersdorf (NIVEA) and AGFA.">Clientes como FCA (Fiat Chrysler), Ambev, Akzo Nobel, Beiersdorf (NIVEA) e AGFA.</li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="tl__head">
+            <h3 data-en="IT Technical Assistant">Auxiliar Técnico de Informática</h3>
+            <span class="mono tl__date" data-en="Jun 2014 – Nov 2017">Jun 2014 – Nov 2017</span>
+          </div>
+          <p class="tl__org">Sinucão · Santo André, SP</p>
+          <ul>
+            <li data-en="IT support and equipment maintenance — the start of my career in technology.">Suporte técnico e manutenção de equipamentos de informática — o início da minha trajetória em tecnologia.</li>
+          </ul>
+        </li>
+      </ol>
+
+      <h3 class="sub" data-en="Education">Formação</h3>
+      <ul class="edu">
+        <li><b data-en="Postgraduate in .NET Systems Architecture">Pós-graduação em Arquitetura de Sistemas .NET</b><span>FIAP · <span data-en="completed in 2026">concluída em 2026</span></span></li>
+        <li><b data-en="B.Sc. in Computer Engineering">Bacharelado em Engenharia de Computação</b><span>Faculdade Engenheiro Salvador Arena · 2016 – 2020</span></li>
+        <li><b data-en="Technical course in Computing">Curso Profissionalizante em Informática</b><span>Colégio Singular Técnico · 2012 – 2014</span></li>
+      </ul>
+
+      <h3 class="sub" data-en="Languages">Idiomas</h3>
+      <ul class="langs">
+        <li><b data-en="Portuguese">Português</b><span data-en="Native">Nativo</span></li>
+        <li><b data-en="English">Inglês</b><span data-en="Professional">Profissional</span></li>
+        <li><b data-en="Spanish">Espanhol</b><span data-en="Basic">Básico</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="sec">
+    <div class="wrap">
+      <h2><span class="mono">05</span> Skills</h2>
+      <div class="skills">
+        <div><h3 data-en="Languages">Linguagens</h3><ul class="tags"><li>C# / .NET</li><li>Python</li><li>T-SQL</li><li>PowerShell</li><li>Bash</li><li>TypeScript</li></ul></div>
+        <div><h3>Frameworks &amp; APIs</h3><ul class="tags"><li>ASP.NET Core MVC</li><li>Web APIs REST</li><li>Azure Functions</li><li>Entity Framework</li><li>FastAPI</li><li>SignalR</li><li>Angular</li></ul></div>
+        <div><h3>Cloud &amp; <span data-en="Infrastructure">Infraestrutura</span></h3><ul class="tags"><li>Microsoft Azure</li><li>Azure DevOps</li><li>Docker</li><li>Railway</li><li>Nginx / HAProxy</li><li>Linux (VPS)</li></ul></div>
+        <div><h3 data-en="Databases">Bancos de dados</h3><ul class="tags"><li>SQL Server</li><li>PostgreSQL</li><li>MySQL</li><li>Redis</li></ul></div>
+        <div><h3 data-en="DevOps &amp; Observability">DevOps &amp; Observabilidade</h3><ul class="tags"><li>CI/CD</li><li>Grafana / Loki</li><li>Application Insights</li></ul></div>
+        <div><h3 data-en="AI &amp; Automation">IA &amp; Automação</h3><ul class="tags"><li>Claude / <span data-en="AI agents">Agentes de IA</span></li><li>n8n</li><li data-en="Process automation">Automação de processos</li></ul></div>
+        <div><h3 data-en="Web &amp; E-commerce">Web &amp; E-commerce</h3><ul class="tags"><li>HTML / CSS / JS</li><li>Nuvemshop</li><li>Loja Integrada</li><li data-en="Responsive design">Design responsivo</li><li>SEO</li></ul></div>
+        <div><h3>IoT &amp; Hardware</h3><ul class="tags"><li>ESP32</li><li>MQTT / EMQX</li><li data-en="3D printing">Impressão 3D</li><li data-en="Parametric CAD">CAD paramétrico</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="sec sec--contact">
+    <div class="wrap">
+      <h2><span class="mono">06</span> <span data-en="Contact">Contato</span></h2>
+      <p class="lead" data-en="Open to job opportunities, freelance projects and partnerships.">Aberto a oportunidades de trabalho, projetos freelance e parcerias.</p>
+      <div class="cta">
+        <a class="btn btn--primary" id="mailBtn" href="#contato" data-en="Send an email">Enviar e-mail</a>
+        <a class="btn" href="https://www.linkedin.com/in/gustavoantonio-ferreira" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/gustavo4869" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <span class="mono">© <span id="year">2026</span> Gustavo Ferreira</span>
+    <span class="mono" data-en="Handmade with HTML, CSS and a bit of JS.">Feito à mão com HTML, CSS e um pouco de JS.</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

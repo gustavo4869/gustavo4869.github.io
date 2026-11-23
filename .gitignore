@@ -1,0 +1,10 @@
+.env*
+!.env.example
+secrets/
+*.db
+*.sqlite
+# prints originais (sem máscara) nunca vão para o repo
+assets/_originais/
+Thumbs.db
+.DS_Store
+node_modules/
