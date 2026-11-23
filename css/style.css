@@ -94,6 +94,7 @@ h2 .mono { color: var(--accent); font-size: .9em; margin-right: 6px; }
 
 .about { display: grid; gap: 16px; max-width: 760px; color: #c9d4e3; }
 .about strong { color: var(--text); }
+.about .note { font-size: .92em; color: #9fb0c6; border-left: 3px solid var(--accent, #38bdf8); padding-left: 12px; }
 
 .stats {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
